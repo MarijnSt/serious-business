@@ -11,7 +11,7 @@ body #shop { font-weight: 300; }
 
 .hours { grid-column: 2 / 3; grid-row: 2 / 3; }
 
-.message { grid-column: 3 / 4; grid-row: 2 / 3; display: flex; flex-direction: column; align-items: center; justify-content: space-around; }
+.message { grid-column: 3 / 4; grid-row: 2 / 3; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 
 .closed { color: red; }
 

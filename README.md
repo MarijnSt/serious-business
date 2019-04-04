@@ -17,10 +17,14 @@
 	* Compare current day with objects to find the right day
 	* Compare current time with properties
 
+### TODO
+
+* Create objects for every day (in the right order 0-6)
+* Fill monday object with example hours
 
 ### Notation of current day and time
 
-* Day: number: 0 for sunday and 6 for saturday
+* Day: 0 - 6 (0 = sunday)
 * Hour: 0 - 23
 * Minutes: 0 - 59
 
