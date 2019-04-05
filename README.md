@@ -6,8 +6,6 @@ You can check out the website here: https://marijnst.github.io/serious-business/
 
 ### TODO
 
-* Check opening on load
-* Add live clock
 * Add closing button that changes closing time of current day
 
 ### Notation of current day and time
@@ -28,3 +26,5 @@ https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
 
 https://www.w3schools.com/cssref/sel_nth-child.asp
+
+https://www.w3schools.com/jsref/event_onload.asp

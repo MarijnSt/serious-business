@@ -87,3 +87,11 @@ function checkShop(){
 	getHours();
 	updateStatus();
 }
+
+//create digital clock
+var myVar = setInterval(clock, 1000);
+
+function clock() {
+  var d = new Date();
+  document.getElementById("digitalClock").innerHTML = d.toLocaleTimeString();
+}

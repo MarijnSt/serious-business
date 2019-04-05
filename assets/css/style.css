@@ -1,20 +1,22 @@
 body { margin: 50px; font-family: 'Roboto', sans-serif; }
 body h1 { font-weight: 400; }
 body p { font-weight: 100; }
-body #shop { font-weight: 300; }
+body #status, body #digitalClock { font-weight: 300; font-size: 32px; }
 
-.grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr auto; grid-gap: 5px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr auto auto; grid-gap: 5px; }
 
 .header { grid-column: 1 / 4; grid-row: 1 / 2; text-align: center; }
 
 .days { grid-column: 1 / 2; grid-row: 2 / 3; text-align: right; }
 
-.hours { grid-column: 2 / 3; grid-row: 2 / 3; }
+.hours { grid-column: 2 / 3; grid-row: 2 / 3; text-align: center; }
 
 .message { grid-column: 3 / 4; grid-row: 2 / 3; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 
 .closed { color: red; }
 
 .open { color: green; }
+
+.clock { grid-column: 2 / 3; text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
