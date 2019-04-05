@@ -1,5 +1,8 @@
 var update = document.getElementById("status");
 
+//check on load
+window.addEventListener("load", checkShop);
+
 //make lists of the hours and minutes
 var openingHourList = document.querySelectorAll(".openingHour");
 var openingMinutesList = document.querySelectorAll(".openingMinutes");

@@ -1,5 +1,9 @@
 # Opening Hours
 
+### Demo
+
+You can check out the website here: https://marijnst.github.io/serious-business/
+
 ### TODO
 
 * Check opening on load
