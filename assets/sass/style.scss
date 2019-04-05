@@ -60,3 +60,17 @@ body {
 	grid-column: 2 / 3;
 	text-align: center;
 }
+
+button {
+	padding: 30px;
+	border: 1px solid #C33025;
+	color: #C33025;
+	font-size: 18px;
+	border-radius: 30px;
+	transition: 0.5s ease-in;
+}
+
+button:hover {
+	background: #C33025; 
+	color: white;
+}

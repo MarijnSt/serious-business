@@ -44,7 +44,6 @@ function getHours(){
 	closingMinutes = parseInt(closingMinutesList[numberOfDay].textContent);
 }
 
-
 function updateStatus(){
 	var opening;
 	var closing;
@@ -91,7 +90,6 @@ function checkShop(){
 
 //create digital clock
 var myVar = setInterval(clock, 1000);
-
 function clock() {
   var d = new Date();
   document.getElementById("digitalClock").innerHTML = d.toLocaleTimeString();
@@ -109,4 +107,6 @@ knopke.addEventListener("click", function(){
 	}
 	closingHourList[numberOfDay].textContent = currentHour;
 	closingMinutesList[numberOfDay].textContent = currentMinutes;
+	update.textContent = "CLOSED";
+	update.classList.replace("open", "closed");
 });
