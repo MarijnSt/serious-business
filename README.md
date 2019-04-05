@@ -6,7 +6,7 @@ You can check out the website here: https://marijnst.github.io/serious-business/
 
 ### TODO
 
-* Add closing button that changes closing time of current day
+* Add some more styling
 
 ### Notation of current day and time
 
@@ -28,3 +28,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://www.w3schools.com/cssref/sel_nth-child.asp
 
 https://www.w3schools.com/jsref/event_onload.asp
+
+https://www.w3schools.com/js/js_timing.asp

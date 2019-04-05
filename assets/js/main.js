@@ -1,4 +1,5 @@
 var update = document.getElementById("status");
+var knopke = document.querySelector("button");
 
 //check on load
 window.addEventListener("load", checkShop);
@@ -95,3 +96,17 @@ function clock() {
   var d = new Date();
   document.getElementById("digitalClock").innerHTML = d.toLocaleTimeString();
 }
+
+//button that closes shop
+knopke.addEventListener("click", function(){
+	getCurrentTime();
+	var val = currentDay;
+	var numberOfDay;
+	if (val == 0) {
+		numberOfDay = 6;
+	} else {
+		numberOfDay = val - 1;
+	}
+	closingHourList[numberOfDay].textContent = currentHour;
+	closingMinutesList[numberOfDay].textContent = currentMinutes;
+});
